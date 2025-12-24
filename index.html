@@ -2085,71 +2085,65 @@
             // ==========================================
             const servicesDB = [
                 // ==============================
-                // VENTANAS (IMÁGENES LOCALES)
-                // ==============================
-                { cat: 'ventanas', title: 'Ventanas Batientes', img: 'VENTANAS/ventana_batiente.png' },
-                { cat: 'ventanas', title: 'Ventanas de Emergencia', img: 'VENTANAS/ventana_emergencia.png' },
-                { cat: 'ventanas', title: 'Ventanas de Guillotina', img: 'VENTANAS/ventana_guillotina.png' },
-                { cat: 'ventanas', title: 'Ventanas de Madera', img: 'VENTANAS/ventana_madera.png' },
-                { cat: 'ventanas', title: 'Ventanas de PVC', img: 'VENTANAS/ventana_pvc.png' },
-                { cat: 'ventanas', title: 'Ventanas de Seguridad', img: 'VENTANAS/ventana_seguridad.png' },
-                { cat: 'ventanas', title: 'Ventanas de Techo', img: 'VENTANAS/ventanas_techo.png' },
-                { cat: 'ventanas', title: 'Ventanas de Vidrio Laminado', img: 'VENTANAS/ventana_laminado.jpg' },
-                { cat: 'ventanas', title: 'Ventanas de Vidrio Templado', img: 'VENTANAS/ventana_vidrio_templado.jpg' },
-                { cat: 'ventanas', title: 'Ventanas Decorativas', img: 'VENTANAS/ventana_decorativa.jpg' },
-                { cat: 'ventanas', title: 'Ventanas Fijas', img: 'VENTANAS/ventana_fija.jpg' },
-                { cat: 'ventanas', title: 'Ventanas Pivotantes', img: 'VENTANAS/ventana_pivotante.jpg' },
-                { cat: 'ventanas', title: 'Ventanas Tipo Claraboya', img: 'VENTANAS/ventanas_claraboyas.jpg' },
-
-
-
-
-
-
-                /* ================= PUERTAS ================= */
-                { cat: 'puertas', title: 'Puertas Plegables de Vidrio', img: 'PUERTAS/puerta_plegable_vidrio.jpg' },
-                { cat: 'puertas', title: 'Puertas de Vidrio Templado', img: 'PUERTAS/puerta_vidrio_templado.jpg' },
-                { cat: 'puertas', title: 'Puertas de Seguridad de Vidrio', img: 'PUERTAS/puerta_seguridad_vidrio.jpg' },
-                { cat: 'puertas', title: 'Puertas de Patio de Vidrio', img: 'PUERTAS/puerta_patio_vidrio.jpg' },
-                { cat: 'puertas', title: 'Puertas de Interior de Vidrio', img: 'PUERTAS/puerta_interior_vidrio.jpg' },
-                { cat: 'puertas', title: 'Puertas de Entrada de Vidrio', img: 'PUERTAS/puerta_entrada_vidrio.jpg' },
-                { cat: 'puertas', title: 'Puertas de Ducha de Vidrio', img: 'PUERTAS/puerta_ducha_vidrio.jpg' },
-                { cat: 'puertas', title: 'Puertas de Armario de Vidrio', img: 'PUERTAS/puerta_armario_vidrio.jpg' },
-                { cat: 'puertas', title: 'Puertas Corredizas de Vidrio', img: 'PUERTAS/puerta_corrediza_vidrio.jpg' },
-                { cat: 'puertas', title: 'Puertas Batientes de Vidrio', img: 'PUERTAS/puerta_batiente_vidrio.jpg' },
-
-                /* ================= VITRINAS ================= */
-                { cat: 'vitrinas', title: 'Vitrina de Vidrio para Tiendas', img: 'VITRINAS/vitrina_tienda_vidrio.jpg' },
-                { cat: 'vitrinas', title: 'Vitrina de Vidrio para Exhibición', img: 'VITRINAS/vitrina_exhibicion_vidrio.jpg' },
-
-                /* ================= MESAS ================= */
-                { cat: 'mesas', title: 'Mesa de TV de Vidrio', img: 'MESAS/mesa_tv_vidrio.jpg' },
-                { cat: 'mesas', title: 'Mesa de Restaurante de Vidrio', img: 'MESAS/mesa_restaurante_vidrio.jpg' },
-                { cat: 'mesas', title: 'Mesa de Patio de Vidrio', img: 'MESAS/mesa_patio_vidrio.jpg' },
-                { cat: 'mesas', title: 'Mesa de Exhibición de Vidrio', img: 'MESAS/mesa_exhibicion_vidrio.jpg' },
-                { cat: 'mesas', title: 'Mesa de Estudio de Vidrio', img: 'MESAS/mesa_estudio_vidrio.jpg' },
-                { cat: 'mesas', title: 'Mesa de Consola de Vidrio', img: 'MESAS/mesa_consola_vidrio.jpg' },
-                { cat: 'mesas', title: 'Mesa de Conferencia de Vidrio', img: 'MESAS/mesa_conferencia_vidrio.jpg' },
-                { cat: 'mesas', title: 'Mesa de Comedor de Vidrio', img: 'MESAS/mesa_comedor_vidrio.jpg' },
-                { cat: 'mesas', title: 'Mesa de Centro de Vidrio', img: 'MESAS/mesa_centro_vidrio.jpg' },
-                { cat: 'mesas', title: 'Mesa de Café de Vidrio', img: 'MESAS/mesa_cafe_vidrio.jpg' },
-                { cat: 'mesas', title: 'Mesa de Bar de Vidrio', img: 'MESAS/mesa_bar_vidrio.jpg' },
-                { cat: 'mesas', title: 'Mesa Auxiliar de Vidrio', img: 'MESAS/mesa_auxiliar_vidrio.jpg' },
-
-
-                // MAMPARAS (IMÁGENES LOCALES)
-                // ==============================
-                { cat: 'mamparas', title: 'Mamparas para Restaurantes de Vidrio', img: 'MAMPARAS/mampara_restaurante.jpg' },
-                { cat: 'mamparas', title: 'Mamparas para Oficinas de Vidrio', img: 'MAMPARAS/mampara_oficina.jpg' },
-                { cat: 'mamparas', title: 'Mamparas de Vidrio Templado', img: 'MAMPARAS/mampara_vidrio_templado.jpg' },
-                { cat: 'mamparas', title: 'Mamparas de Vidrio para Locales Comerciales', img: 'MAMPARAS/mampara_local_comercial.jpg' },
-                { cat: 'mamparas', title: 'Mamparas de Vidrio para Hospitales', img: 'MAMPARAS/mamparas_hospitales.jpg' },
-                { cat: 'mamparas', title: 'Mamparas de Vidrio para Gimnasios', img: 'MAMPARAS/mamparas_gimnasios.jpg' },
-                { cat: 'mamparas', title: 'Mamparas de Vidrio para Escuelas', img: 'MAMPARAS/mamparas_escuelas.jpg' },
-                { cat: 'mamparas', title: 'Mamparas de Oficina con Vidrio Laminado', img: 'MAMPARAS/mampara_oficina_laminado.jpg' },
-                { cat: 'mamparas', title: 'Mamparas de Ducha de Vidrio', img: 'MAMPARAS/mampara_ducha.jpg' },
-                { cat: 'mamparas', title: 'Mamparas de Baño de Vidrio', img: 'MAMPARAS/mampara_bano.jpg' }
-
+                    // VENTANAS
+                    // ==============================
+                    { cat: 'ventanas', title: 'Ventanas Batientes', img: 'ventana_batiente.png' },
+                    { cat: 'ventanas', title: 'Ventanas de Emergencia', img: 'ventana_emergencia.png' },
+                    { cat: 'ventanas', title: 'Ventanas de Guillotina', img: 'ventana_guillotina.png' },
+                    { cat: 'ventanas', title: 'Ventanas de Madera', img: 'ventana_madera.png' },
+                    { cat: 'ventanas', title: 'Ventanas de PVC', img: 'ventana_pvc.png' },
+                    { cat: 'ventanas', title: 'Ventanas de Seguridad', img: 'ventana_seguridad.png' },
+                    { cat: 'ventanas', title: 'Ventanas de Techo', img: 'ventanas_techo.png' },
+                    { cat: 'ventanas', title: 'Ventanas de Vidrio Laminado', img: 'ventana_laminado.jpg' },
+                    { cat: 'ventanas', title: 'Ventanas de Vidrio Templado', img: 'ventana_vidrio_templado.jpg' },
+                    { cat: 'ventanas', title: 'Ventanas Decorativas', img: 'ventana_decorativa.jpg' },
+                    { cat: 'ventanas', title: 'Ventanas Fijas', img: 'ventana_fija.jpg' },
+                    { cat: 'ventanas', title: 'Ventanas Pivotantes', img: 'ventana_pivotante.jpg' },
+                    { cat: 'ventanas', title: 'Ventanas Tipo Claraboya', img: 'ventanas_claraboyas.jpg' },
+                    
+                    /* ================= PUERTAS ================= */
+                    { cat: 'puertas', title: 'Puertas Plegables de Vidrio', img: 'puerta_plegable_vidrio.jpg' },
+                    { cat: 'puertas', title: 'Puertas de Vidrio Templado', img: 'puerta_vidrio_templado.jpg' },
+                    { cat: 'puertas', title: 'Puertas de Seguridad de Vidrio', img: 'puerta_seguridad_vidrio.jpg' },
+                    { cat: 'puertas', title: 'Puertas de Patio de Vidrio', img: 'puerta_patio_vidrio.jpg' },
+                    { cat: 'puertas', title: 'Puertas de Interior de Vidrio', img: 'puerta_interior_vidrio.jpg' },
+                    { cat: 'puertas', title: 'Puertas de Entrada de Vidrio', img: 'puerta_entrada_vidrio.jpg' },
+                    { cat: 'puertas', title: 'Puertas de Ducha de Vidrio', img: 'puerta_ducha_vidrio.jpg' },
+                    { cat: 'puertas', title: 'Puertas de Armario de Vidrio', img: 'puerta_armario_vidrio.jpg' },
+                    { cat: 'puertas', title: 'Puertas Corredizas de Vidrio', img: 'puerta_corrediza_vidrio.jpg' },
+                    { cat: 'puertas', title: 'Puertas Batientes de Vidrio', img: 'puerta_batiente_vidrio.jpg' },
+                    
+                    /* ================= VITRINAS ================= */
+                    { cat: 'vitrinas', title: 'Vitrina de Vidrio para Tiendas', img: 'vitrina_tienda_vidrio.jpg' },
+                    { cat: 'vitrinas', title: 'Vitrina de Vidrio para Exhibición', img: 'vitrina_exhibicion_vidrio.jpg' },
+                    
+                    /* ================= MESAS ================= */
+                    { cat: 'mesas', title: 'Mesa de TV de Vidrio', img: 'mesa_tv_vidrio.jpg' },
+                    { cat: 'mesas', title: 'Mesa de Restaurante de Vidrio', img: 'mesa_restaurante_vidrio.jpg' },
+                    { cat: 'mesas', title: 'Mesa de Patio de Vidrio', img: 'mesa_patio_vidrio.jpg' },
+                    { cat: 'mesas', title: 'Mesa de Exhibición de Vidrio', img: 'mesa_exhibicion_vidrio.jpg' },
+                    { cat: 'mesas', title: 'Mesa de Estudio de Vidrio', img: 'mesa_estudio_vidrio.jpg' },
+                    { cat: 'mesas', title: 'Mesa de Consola de Vidrio', img: 'mesa_consola_vidrio.jpg' },
+                    { cat: 'mesas', title: 'Mesa de Conferencia de Vidrio', img: 'mesa_conferencia_vidrio.jpg' },
+                    { cat: 'mesas', title: 'Mesa de Comedor de Vidrio', img: 'mesa_comedor_vidrio.jpg' },
+                    { cat: 'mesas', title: 'Mesa de Centro de Vidrio', img: 'mesa_centro_vidrio.jpg' },
+                    { cat: 'mesas', title: 'Mesa de Café de Vidrio', img: 'mesa_cafe_vidrio.jpg' },
+                    { cat: 'mesas', title: 'Mesa de Bar de Vidrio', img: 'mesa_bar_vidrio.jpg' },
+                    { cat: 'mesas', title: 'Mesa Auxiliar de Vidrio', img: 'mesa_auxiliar_vidrio.jpg' },
+                    
+                    // ==============================
+                    // MAMPARAS
+                    // ==============================
+                    { cat: 'mamparas', title: 'Mamparas para Restaurantes de Vidrio', img: 'mampara_restaurante.jpg' },
+                    { cat: 'mamparas', title: 'Mamparas para Oficinas de Vidrio', img: 'mampara_oficina.jpg' },
+                    { cat: 'mamparas', title: 'Mamparas de Vidrio Templado', img: 'mampara_vidrio_templado.jpg' },
+                    { cat: 'mamparas', title: 'Mamparas de Vidrio para Locales Comerciales', img: 'mampara_local_comercial.jpg' },
+                    { cat: 'mamparas', title: 'Mamparas de Vidrio para Hospitales', img: 'mamparas_hospitales.jpg' },
+                    { cat: 'mamparas', title: 'Mamparas de Vidrio para Gimnasios', img: 'mamparas_gimnasios.jpg' },
+                    { cat: 'mamparas', title: 'Mamparas de Vidrio para Escuelas', img: 'mamparas_escuelas.jpg' },
+                    { cat: 'mamparas', title: 'Mamparas de Oficina con Vidrio Laminado', img: 'mampara_oficina_laminado.jpg' },
+                    { cat: 'mamparas', title: 'Mamparas de Ducha de Vidrio', img: 'mampara_ducha.jpg' },
+                    { cat: 'mamparas', title: 'Mamparas de Baño de Vidrio', img: 'mampara_bano.jpg' }
 
             ];
 
@@ -2344,3 +2338,4 @@
 
 
 </html>
+
